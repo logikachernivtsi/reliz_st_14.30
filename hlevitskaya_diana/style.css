@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+
+header{
+    background: url("https://learn.logikaschool.com/uploads/student/2901225/665cb02a28a9d.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+.start img {
+    width: 90px;
+    height: 111px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 120px;
+    color: #FFFFFF;
+    -webkit-text-stroke:2px #3B2940;
+}
+
+header h2{
+    margin-top:-50px;
+    text-align: center;
+    font-size: 70px;
+    color: #FFFFFF;
+    -webkit-text-stroke:2px #3B2940;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#BE89CC;
+    height: 100px;
+    align-items: center;
+}
+
+nav a{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    overflow: hidden;
+    -webkit-text-stroke:0.9px #3B2940;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-align: center;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+.cat {
+    text-align: center;
+    font-size: 36px;
+    color: rgba(59, 41, 64, 0.68);
+    -webkit-text-stroke:1px #3B2940;
+}
+
+.big_city{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.city {
+    width: 500px;
+}
+
+.city img{
+    width: 500px;
+    height: 400px;
+}
+
+main h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    -webkit-text-stroke: 2px #BB7ACB;
+    text-align: center;
+
+}
+
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zsu{
+    background: url("https://learn.logikaschool.com/uploads/student/2901225/6660740d8000a.png");
+    background-size:cover;
+    height: 500px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.zsu h1{
+    width: 1200px;
+    margin-top:20px;
+    font-size: 64px;
+    text-align: center;
+    color: #BE89CC;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.zsu a{
+    width: 500px;
+    font-size: 50px;
+    text-align: center;
+    color: #BE89CC;
+    -webkit-text-stroke: 1px #000000;
+    background-color: #BE89CC;
+    padding: 10px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: #BE89CC;
+    padding: 20px;
+}
+
+.pidval{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    text-align: center;
+}
