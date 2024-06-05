@@ -1,0 +1,190 @@
+body {
+    font-family: 'Montserrat' ,sans-serif;
+    background-color:lightgray;
+    font-size: 24px;
+    width: 100%;
+}
+header{
+    top:0;
+    position: fixed;
+    background-color: #8A8A8A;
+    width: 100%;
+    height: 160px;
+}
+.header{
+    background-color: #8A8A8A;
+    height: 300px;
+}
+
+.header h1{
+    font-size:50px;
+    text-align:center;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.about_text{
+    text-align: justify;
+}
+
+main{
+    margin-top:150px;
+}
+
+main{
+    background-color:#8A8A8A;
+}
+
+nav{
+    color:black;
+    text-align:center;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+
+nav a{
+ color:black;
+    text-decoration:none ;
+
+}
+
+.nike{
+    border-radius: 64px;
+    width: 650px;
+    height: 150px;
+}
+
+.nike_2{
+    border-radius: 64px;
+    width: 650px;
+    height: 150px;
+}
+
+.t-shirt{
+    width: 200px;
+    height: 275px;
+    border: 5px solid black;
+
+}
+
+.forma{
+    width: 200px;
+    height: 275px;
+    border: 5px solid black;
+}
+
+.butsi{
+    width: 300px;
+    height: 275px;
+    border: 5px solid black;
+}
+
+.mach{
+    width: 200px;
+    height: 275px;
+    border: 5px solid black;
+}
+
+.rukzak{
+    width: 250px;
+    height: 275px;
+    border: 5px solid black;
+}
+
+.shutki{
+    width: 300px;
+    height: 275px;
+    border: 5px solid black;
+}
+
+.messi{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    border: 5px solid black;
+}
+
+.ronaldo{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    border: 5px solid black;
+}
+
+.catalog, .new{
+    background-color: #8A8A8A;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+h1{
+    text-align: center;
+}
+.back_grey{
+    background-color: lightgray;
+}
+
+.reviews{
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.review{
+    margin: 10px;
+    background-color: #8A8A8A;
+    border-radius: 60px;
+    color:rgb(0, 0, 0);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 800px;
+}
+
+.review img{
+    margin: auto 20px auto 20px;
+}
+
+.review p{
+    text-align: justify;
+}
+
+.de_znaiti{
+    background-color: #8A8A8A;
+    text-align: center;
+    padding: 10px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+.adress{
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.social{
+    float:right;
+    margin-bottom:20px;
+}
+.social p{
+    color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #8A8A8A;
+    height: 150px;
+    padding:20px;
+}
