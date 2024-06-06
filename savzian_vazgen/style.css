@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    font-size:20px;
+}
+
+header{
+    background: rgba(0, 0, 0, 0.89);
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    font-size:32px;
+}
+
+header h1{
+    color:#FFF500;
+    text-align: center;
+    padding: 50px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about article{
+    text-align: justify;
+    align-items: center;
+}
+
+.about_img{
+    width: 400px;
+    border-radius: 200px;
+    float:right;
+}
+
+main h1{
+    text-align: center;
+}
+
+.catalog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product{
+    width: 500px;
+}
+
+.product img{
+    width: 500px;
+}
+
+.reviews{
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.review{
+    color:rgb(0, 0, 0);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 800px;
+}
+
+.review img{
+    width: auto;
+    height: auto;
+    margin: auto 20px auto 20px;
+    border-radius: 150px;
+}
+
+.review p{
+    text-align: justify;
+}
+
+.adress{
+    text-align: center;
+}
+
+h2{
+    color: #cbc400;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Ruslan Display", sans-serif;
+}
+
+h3{
+    font-size:35px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+
+.social{
+    float:right;
+    margin-bottom:20px;
+}
+.social p{
+    color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #cbc400;
+    height: 150px;
+    padding:20px;
+}
