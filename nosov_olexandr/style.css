@@ -1,0 +1,301 @@
+body {
+    font-family: Alegraya SC;
+    position: relative;
+    width: 100%;
+    height: 3780px;
+    overflow-y: scroll;
+    background: #F2CBCB;
+}
+
+
+.decoration1 {
+    width: 282px;
+    height: 257px;
+    left: 10px;
+    top: 9px;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo img {
+    width: 210px;
+    height: 196px;
+    background: url(document-transformed);
+    border-radius: 98px;
+}
+
+
+nav a {
+    font-family: "Alegreya SC", serif;
+    background: linear-gradient(89.86deg, #8ECDCE 0.12%, #AAB8C1 41.21%, #D39BAF 99.88%);
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    width: 120px;
+    height: 52pxz;
+    text-align: center;
+    color: black;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.nazva {
+    height: 174px;
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+    color: #582E2E;
+}
+
+
+.cha {
+    width: 175px;
+    height: 65px;
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+    color: #000000;
+}
+
+
+.textab {
+    width: 694px;
+    height: 395px;
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+}
+
+
+.we {
+    height: 500px;
+}
+
+
+.rozdil {
+    text-align: center;
+    height: 65px;
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+    color: #000000;
+}
+
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.product {
+    width: 350px;
+    height: 550px;
+    padding: 15px;
+}
+
+
+.product img {
+    width: 350px;
+    height: 280px;
+}
+
+
+.product p {
+    font-family: 'Alegreya SC';
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+.product h1 {
+    font-family: 'Alegreya SC';
+    font-size: 30px;
+}
+
+.rox {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    color: #000000;
+    padding-top: 60px;
+}
+
+.reviews {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.review {
+    color: black;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 800px;
+}
+
+.review img {
+    width: auto;
+    height: auto;
+    margin: auto 20px auto 20px;
+}
+
+h3 {
+    display: block;
+    font-size: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.decoration3 {
+    position: absolute;
+    width: 467px;
+    height: 423px;
+    left: 867px;
+    top: 1994px;
+}
+
+.review P {
+    text-align: justify;
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.where {
+    color: black;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.decoration4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 20px;
+    top: 2819px;
+}
+
+.decoration5 {
+position: absolute;
+width: 338px;
+height: 338px;
+left: 922px;
+top: 3333px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.add {
+    color: black;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.address {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+footer {
+    background-color: #C4C4C4;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2 {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-size: 36px;
+    color: #000000;
+}
+
+footer h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.number1 {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-size: 36px;
+    color: #000000;
+}
+
+.number2 {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+}
+
+.number1::after {
+    content: url("https://learn.logikaschool.com/uploads/student/2990137/666096ed41ceb.png");
+}
+
+.number2::after {
+    content: url("https://learn.logikaschool.com/uploads/student/2990137/666096eaa0120.png");
+}
+
+.icon {
+    width: 42px;
+}
