@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    background-color: #973232;
+    width: 100%;
+    font-size: 24px;
+    color:white;
+}
+
+header{
+    background-color:#D9D9D9;
+    padding: 20px;
+}
+
+header h1{
+    text-align: center;
+    color:black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    background-color: #973232;
+    padding:10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    transition: 0.2s linear;
+    background-color: white;
+    color: #973232;
+}
+
+
+.about{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.car{
+    height: 300px;
+}
+
+.autosalon{
+    height: 400px;
+}
+
+main h1{
+    font-size: 32px;
+    text-align: center;
+    background-color: white;
+    color:#973232;
+    padding: 10px;
+}
+
+.catalog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product{
+    width: 400px;
+}
+
+.product img{
+    height: 250px;
+}
+.cina{
+    color:rgb(0, 205, 0);
+    font-style: oblique;
+}
+
+.adress{
+    text-align: center;
+}
+
+.adress img{
+    width: 300px;
+}
+
+footer{
+    background-color: #D9D9D9;
+    padding: 20px;
+    color:black;
+}
